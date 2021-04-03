@@ -1,0 +1,10 @@
+
+{% extends "news/layout.html" %}
+
+{% block content %}
+<h1> {{news.title}} </h1>
+<h6>{{news.date|date:"Y-m-d"}}</h6>
+<p>
+    {{news.post|safe|linebreaks}}
+</p>
+{% endblock %}

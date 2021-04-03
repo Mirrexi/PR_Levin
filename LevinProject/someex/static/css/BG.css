@@ -1,0 +1,11 @@
+{% load static %}
+body, table, td, p, a, li, blockquote {
+	-webkit-text-size-adjust: none!important;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 400; background: url("../../static/images/BG-main.jpg") no-repeat center center fixed;
+	       -webkit-background-size: cover;
+	       -moz-background-size: cover;
+	       -o-background-size: cover;
+	       background-size: cover;
+}
