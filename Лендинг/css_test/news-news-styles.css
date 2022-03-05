@@ -1,0 +1,75 @@
+.news-news {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.back-img {
+  margin: auto;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-group {
+  display: flex;
+  align-items: flex-start;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.intersect {
+}
+.date {
+font-family: Raleway;
+font-style: normal;
+font-weight: 300;
+display: flex;
+align-items: center;
+color: #737373;
+  margin: 0;
+}
+.main-text {
+font-family: Hind Madurai;
+font-style: normal;
+font-weight: 500;
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+color: #333333;
+  margin-bottom: 6px;
+}
+.text {
+  height: auto;
+font-family: Raleway;
+font-style: normal;
+font-weight: 300;
+display: flex;
+align-items: center;
+text-align: justify;
+color: #666666;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin: 0;
+}
+
+.news-button {
+border: 3px solid #305988;
+background: #FFFFFF;
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+display: flex;
+align-items: center;
+color: #305988;
+}

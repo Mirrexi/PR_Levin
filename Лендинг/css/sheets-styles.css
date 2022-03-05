@@ -1,0 +1,109 @@
+.sheets {
+  display: flex;
+  align-items: flex-start;
+  margin: auto;
+  justify-content:center
+}
+.relative-sheet {
+  position: relative;
+  margin-bottom: 40px;
+}
+.back-img {
+  width: 100%;
+  height: 377px;
+  position: relative;
+  background-image: URL(../images/sheets-image.png);
+  text-align: center;
+  margin-bottom: 75px;
+  background-repeat: repeat;
+  background-position: center;
+}
+.group-sheet {
+  background-color: rgba(244, 244, 244, 1);
+  padding: 31px 37px 27px 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.main-part {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+h2 {
+  height: 39px;
+  font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+color: #EE6C4D;
+  display: flex;
+  align-items: center;
+  margin-right: 719px;
+}
+.date {
+    height: 33px;
+    width: 174px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    display: flex;
+    align-items: center;
+}
+.linetext {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+.line {
+  width: 6px;
+  height: 181px;
+  background-color: rgba(238, 108, 77, 1);
+  margin-right: 14px;
+}
+.text {
+    height: auto;
+    width: 100%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #293241;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.56px;
+}
+.news-button {
+border: 3px solid #EE6C4D;
+border-radius: 46px;
+background: none;
+padding: 21px 94px 22px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 33px;
+display: flex;
+align-items: center;
+color: #EE6C4D;
+margin-bottom: 45px;
+}
+.main-part a {
+      text-decoration: none; 
+    color: #EE6C4D;
+}

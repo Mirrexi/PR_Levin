@@ -1,0 +1,48 @@
+.contacts-sheet {
+  padding: 97px 147px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+iframe {
+  margin-right:79px;
+  border: 0;
+  width: 1032px;
+  height: 631px;
+}
+.right-column-map {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1-map {
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+color: #293241;
+  margin-bottom: 8px;
+}
+
+.line {
+  width: 334px;
+  height: 6px;
+  background-color: #EE6C4D;
+  margin-bottom: 34px;
+}
+.right-column-map p-map {
+  height: 34px;
+  width: 550px;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+color: #305988;
+  display: flex;
+  margin-bottom: 35px;
+}

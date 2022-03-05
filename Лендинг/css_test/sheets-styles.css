@@ -1,0 +1,83 @@
+.sheets {
+  display: flex;
+  align-items: flex-start;
+  margin: auto;
+  justify-content:center
+}
+.relative-sheet {
+  position: relative;
+}
+.back-img {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.group-sheet {
+  background-color: rgba(244, 244, 244, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+h2 {
+  font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+display: flex;
+align-items: center;
+color: #EE6C4D;
+  display: flex;
+  align-items: center;
+}
+.date {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    display: flex;
+    align-items: center;
+}
+.linetext {
+  display: flex;
+  align-items: center;
+}
+.line {
+  background-color: rgba(238, 108, 77, 1);
+}
+.text {
+    height: auto;
+    width: 100%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #293241;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.56px;
+}
+.news-button {
+border: 3px solid #EE6C4D;
+background: none;
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+display: flex;
+align-items: center;
+color: #EE6C4D;
+}
+.main-part a {
+      text-decoration: none; 
+    color: #EE6C4D;
+}
